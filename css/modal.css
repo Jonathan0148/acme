@@ -1,0 +1,21 @@
+*{
+    font-family: 'Times New Roman' !important;
+}
+#swal2-title{
+    display: block !important;
+}
+#swal2-title span{
+    color: #2b132a !important; 
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 996px){
+    #swal2-title{
+        display: block !important;
+        width: 95% !important;
+    }
+    #swal2-title span{
+        color: #2b132a !important; 
+        text-transform: uppercase;
+    }
+} 

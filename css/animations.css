@@ -1,0 +1,20 @@
+/* ANIMATIONS */
+@keyframes cards{
+    0%{
+      transform: translate(0%,100%);
+      opacity: 0;
+    }
+  }
+  @keyframes textHome{
+    0%{
+      transform: translate(-100%,0%);
+      opacity: 0;
+    }
+  }
+
+  .card{
+    transform: translate(0);
+    opacity: 1;
+    animation: cards 1s .3s;
+    transition: transform 600ms ease;
+  }
