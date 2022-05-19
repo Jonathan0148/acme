@@ -44,7 +44,7 @@
 				modalAlert('Error al registrar','../.././view/owners/registerOwner.php','error',3);
 			}else {		
 				$result->execute();
-				modalAlert('Conductor registrado','../../../view/owners/owners.php','success',3);
+				modalAlert('Propietario registrado','../../../view/owners/owners.php','success',3);
         	}
 	  	}//Cierra insertar propietarios
 
